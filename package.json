@@ -1,6 +1,6 @@
 {
   "name": "log-out",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Log-out is a simple logger which adds timestamp and color to the log",
   "main": "index.js",
   "scripts": {
