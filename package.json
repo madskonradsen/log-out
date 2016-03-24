@@ -1,6 +1,6 @@
 {
   "name": "log-out",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Log-out is a simple logger which adds timestamp and color to the log",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/madskonradsen/log-out#readme",
   "dependencies": {
-    "colors": "^1.1.2",
-    "dateformat": "^1.0.11"
+    "colors": "^1.1.2"
   }
 }
