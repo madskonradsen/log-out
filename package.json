@@ -1,7 +1,7 @@
 {
   "name": "log-out",
-  "version": "0.1.2",
-  "description": "Log-out is a simple logger which adds timestamp and color to the log",
+  "version": "0.1.3",
+  "description": "Log-out is a simple console.log/warn/error/debug replacement which adds timestamp and color to the output of your application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +15,14 @@
   "bugs": {
     "url": "https://github.com/madskonradsen/log-out/issues"
   },
+  "keywords":[
+    "logger",
+    "log",
+    "console",
+    "replacement",
+    "color",
+    "timestamp"
+  ],
   "homepage": "https://github.com/madskonradsen/log-out#readme",
   "dependencies": {
     "colors": "^1.1.2"
