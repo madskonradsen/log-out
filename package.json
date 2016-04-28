@@ -23,8 +23,5 @@
     "color",
     "timestamp"
   ],
-  "homepage": "https://github.com/madskonradsen/log-out#readme",
-  "dependencies": {
-    "colors": "^1.1.2"
-  }
+  "homepage": "https://github.com/madskonradsen/log-out#readme"
 }

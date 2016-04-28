@@ -1,5 +1,3 @@
-var colors = require('colors');
-
 function timestamp() {
     var date = new Date();
 
@@ -21,17 +19,17 @@ function timestamp() {
 }
 
 exports.warn = function (msg) {
-  console.log('[' + timestamp() + '] ' + colors.yellow('[WARN] ') + msg);
+  console.log('[' + timestamp() + ']','\x1b[33m','[WARN]','\x1b[0m', msg);
 }
 
 exports.log = function (msg) {
-  console.log('[' + timestamp() + '] ' + colors.green('[LOG] ') + msg);
+  console.log('[' + timestamp() + ']','\x1b[32m','[LOG]','\x1b[0m', msg);
 }
 
 exports.debug = function (msg) {
-  console.log('[' + timestamp() + '] ' + colors.blue('[DEBUG] ') + msg);
+  console.log('[' + timestamp() + ']','\x1b[34m','[DEBUG]','\x1b[0m', msg);
 }
 
 exports.error = function (msg) {
-  console.log('[' + timestamp() + '] ' + colors.red('[ERROR] ') + msg);
+  console.log('[' + timestamp() + ']','\x1b[31m','[ERROR]','\x1b[0m', msg);
 }
