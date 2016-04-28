@@ -1,6 +1,6 @@
 {
   "name": "log-out",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Log-out is a simple console.log/warn/error/debug replacement which adds timestamp and color to the output of your application",
   "main": "index.js",
   "scripts": {
